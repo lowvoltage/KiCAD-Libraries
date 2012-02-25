@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: 23/02/2012 21:38:19
+#
+$CMP LV_1602_LCD_HD44780
+D 16X2 LCD display based on HD44780
+K HD44780 16X2 1602 LCD
+F http://www.sparkfun.com/datasheets/LCD/HD44780.pdf
+$ENDCMP
+#
+#End Doc Library
