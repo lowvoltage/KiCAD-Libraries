@@ -11,6 +11,11 @@ tracks = False
 trackPairs = []
 
 for line in fin.readlines(): 
+	# Set a fixed first line
+	if line.startswith('PCBNEW-BOARD'):
+		fout.write('PCBNEW-BOARD Version 1 date Sun 01 Jan 2012 00:00:00 AM EEST\n')
+		continue
+
 	if line.startswith('$TRACK'):
 		tracks = True
 		fout.write(line)
