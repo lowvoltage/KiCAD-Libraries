@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 23/02/2012 21:38:19
+EESchema-DOCLIB  Version 2.0  Date: Sun 01 Jan 2012 00:00:00 AM EEST
 #
 $CMP LM317
 D Linear Regulator (adjustable)
@@ -11,6 +11,12 @@ K LM337 negative voltage regulator linear
 $ENDCMP
 #
 $CMP LV_1602_LCD_HD44780
+D 16X2 LCD display based on HD44780
+K HD44780 16X2 1602 LCD
+F http://www.sparkfun.com/datasheets/LCD/HD44780.pdf
+$ENDCMP
+#
+$CMP LV_1602_LCD_HD44780_6+6
 D 16X2 LCD display based on HD44780
 K HD44780 16X2 1602 LCD
 F http://www.sparkfun.com/datasheets/LCD/HD44780.pdf
